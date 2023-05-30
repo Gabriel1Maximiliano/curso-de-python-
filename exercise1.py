@@ -16,5 +16,8 @@
 
 #print(input("Escribe tu nombre:")+" "+input("Escribe tu apellido: "))
 #print(input("Escribe tu nombre:") + " " + input("Escribe tu apellido:"))
-print("Responda estas dos preguntas para nombrar su cerveza\n")
-print("El nombre de su mascota es "+""+input("¿Nombre de su perro?: ")+input("Nombre de su animal favorito: "))
+#print("Responda estas dos preguntas para nombrar su cerveza\n")
+#print("El nombre de su mascota es "+""+input("¿Nombre de su perro?: ")+input("Nombre de su animal favorito: "))
+color='red'
+model = 'Vento'
+print(f"Mi auto es {model} color {color}")
