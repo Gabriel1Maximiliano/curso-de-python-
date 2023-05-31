@@ -1,9 +1,9 @@
 phrase = "Le vAs a decir al usuario cuántas palabras hay a lo largo de todo el texto"
-lettersToSearch = ['a', 'b', 'c']
+letters_to_Search = ['a', 'b', 'c']
 
-count_of_firstLetter = phrase.lower().count(lettersToSearch[0].lower())
-count_of_secondLetter = phrase.lower().count(lettersToSearch[1].lower())
-count_of_thirdLetter = phrase.lower().count(lettersToSearch[2].lower())
+count_of_firstLetter = phrase.lower().count(letters_to_Search[0].lower())
+count_of_secondLetter = phrase.lower().count(letters_to_Search[1].lower())
+count_of_thirdLetter = phrase.lower().count(letters_to_Search[2].lower())
 
 word_count = len(phrase.split(" "))
 print("Welcome to Day 3 Python course")
