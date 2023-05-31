@@ -1,16 +1,19 @@
 # first step the user input a phrase 
 phrase = "Le vAs a decir al usuario cuántas palabras hay a lo largo de todo el texto"
 #second the user input 3 letters
-lettersToSeach = ['a','b','b']
+lettersToSeach = ['a','b','c']
 
-firstLetter  = phrase.lower().count( lettersToSeach[0].lower() )
-secondLetter = phrase.count( lettersToSeach[1].lower() )
-thirdLetter  = phrase.count( lettersToSeach[2].lower() )
+amount_of_firstLetter  = phrase.lower().count( lettersToSeach[0].lower() )
+amount_of_secondLetter = phrase.lower().count( lettersToSeach[1].lower() )
+amount_of_thirdLetter  = phrase.lower().count( lettersToSeach[2].lower() )
 #thrid we count the amount of words in this phrase
 
 amount_of_words = len( phrase.split(" "))
 print( "Welcome to Day 3 Python course" )
 
+print( f"The amount of '{lettersToSeach[0]}' is {amount_of_firstLetter}" )
+print( f"The amount of '{lettersToSeach[1]}' is {amount_of_secondLetter}" )
+print( f"The amount of '{lettersToSeach[2]}' is {amount_of_thirdLetter}" )
 print( f"The amount of words is { amount_of_words }\n")
 
 # fourth we need the first and the last letter of the phrase
