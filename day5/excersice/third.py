@@ -1,14 +1,13 @@
 
 def repeated_number( *args ):
-    zeros = []
+    zero_index = 0
     list_of_numbers = list( args )
-    for num in list_of_numbers:
-        if num == 0:
-            zeros.append( num )
-            if len( zeros ) == 2:
+    if zero_index <= len( list_of_numbers ):
+        for num in list_of_numbers:
+            if args[ zero_index ] == 0 and args[ zero_index ] == 0:
                 return True
             else:
-                pass
-    return False        
+                zero_index +=1
+        return False        
     
 print( repeated_number( 1,2,3,0,0 ) )
