@@ -48,22 +48,48 @@
 #         print("La suma de tus dados es {suma_dados}. Parece una jugada ganadora")    
 # evaluar_jugada()
 
-lista_numeros = [1,2,3,3,3,3,4]
+# lista_numeros = [1,2,3,3,3,3,4]
 
-def reducir_lista( lista_numeros ):
+# def reducir_lista( lista_numeros ):
     
-    no_repeat = set( lista_numeros )
-    return list(no_repeat)
+#     no_repeat = set( lista_numeros )
+#     return list(no_repeat)
     
 
 
-print(reducir_lista(lista_numeros))
+# print(reducir_lista(lista_numeros))
 
-def promedio(lista = reducir_lista(lista_numeros)):
-    suma=0
-    for num in lista:
-        suma += num
-        res = (float) (suma/(len( lista )))
-    return res
+# def promedio(lista = reducir_lista(lista_numeros)):
+#     suma=0
+#     for num in lista:
+#         suma += num
+#         res = (float) (suma/(len( lista )))
+#     return res
 
-print( promedio(reducir_lista(lista_numeros)) )
+# print( promedio(reducir_lista(lista_numeros)) )
+
+# def suma_cuadrados( *args ):
+#     add = 0
+#     for num in args:
+#         add+= num**2
+#     return add
+
+
+# print( suma_cuadrados(1,2,3) )
+
+
+# def numeros_persona( nombre,*args ):
+#     suma_numeros = 0
+#     for num in args:
+#         suma_numeros+=num
+#     return  f"{nombre}, la suma de tus números es {suma_numeros}"
+
+# print( numeros_persona( "Gab", 1,2,3 ) )
+
+def cantida_atributos( **kwargs ):
+    cantidad = 0
+    for clave in kwargs.items():
+        cantidad += 1
+    return cantidad
+    
+print( cantida_atributos( a='hola',b='Mundo' ) )
