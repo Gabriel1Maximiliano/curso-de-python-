@@ -6,3 +6,23 @@ Si la suma de los 3 numeros es menor a 10, va a devolver el
 número menor.
 Si la suma de los 3 números es un valor entre 10 y 15
 (incluidos) va a devolver el número de valorintermedio
+
+# Second 
+
+Escribe una función (puedes ponerle cualquier nombre que
+quieras) que reciba cualquier palabra como parámetro, y que
+devuelva todas sus letras únicas (sin repetir) pero en orden
+alfabético.
+Por ejemplo si al invocar esta función pasamos la palabra
+"entretenido"
+, debería devolver ['d','e','i','n','o','r','t']
+
+# Third 
+
+Escribe una función que requiera una cantidad indefinida de
+argumentos. Lo que hará esta función es devolver True si en
+algún momento se ha ingresado al numero cero repetido dos
+veces consecutivas.
+Por ejemplo:
+(5,6,1,0,0,9,3,5) >>> True
+(6,0,5,1,0,3,0,1) >>> False
