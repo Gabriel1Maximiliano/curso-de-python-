@@ -86,10 +86,11 @@
 
 # print( numeros_persona( "Gab", 1,2,3 ) )
 
-def cantida_atributos( **kwargs ):
-    cantidad = 0
-    for clave in kwargs.items():
-        cantidad += 1
-    return cantidad
+# def cantida_atributos( **kwargs ):
+#     cantidad = 0
+#     for clave in kwargs.items():
+#         cantidad += 1
+#     return cantidad
     
-print( cantida_atributos( a='hola',b='Mundo' ) )
+# print( cantida_atributos( a='hola',b='Mundo' ) )
+

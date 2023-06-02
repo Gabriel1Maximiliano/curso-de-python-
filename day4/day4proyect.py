@@ -8,13 +8,13 @@ name = input("Tell me your name: ")
 print(f"Okey {name},I have thought of a number between 1 and 100\nYou have 8 attempts to guess")
 
 while tries < 8:
-    estimate = int(input("Cuál es el número?: "))
+    estimate = int(input("what is the number?: "))
     tries += 1
 
     if estimate < secret_number:
-        print("Mi numero es mas alto")
+        print("My number is higher")
     elif estimate > secret_number:
-        print("Mi numero es mas bajo")
+        print("my number is lower")
     else:
         print(f"Congratulations {name}! you guessed in {tries} tries")
         break
